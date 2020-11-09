@@ -6,14 +6,23 @@ import LawnPreviewContainer from '../LawnPreviewContainer/LawnPreviewContainer';
 
 const App = () => {
   return (
-    <main>
+    <StyledMain>
       <Navbar />
       <section>
         <WelcomeForm />
         <LawnPreviewContainer />
       </section>
-    </main>
+    </StyledMain>
   );
 };
+
+const StyledMain = styled.main`
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  width: 100vw;
+  height: 100vh;
+`;
 
 export default App;
