@@ -8,10 +8,10 @@ const App = () => {
   return (
     <StyledMain>
       <Navbar />
-      <section>
+      <StyledLower>
         <WelcomeForm />
         <LawnPreviewContainer />
-      </section>
+      </StyledLower>
     </StyledMain>
   );
 };
@@ -23,6 +23,14 @@ const StyledMain = styled.main`
   }
   width: 100vw;
   height: 100vh;
+`;
+
+const StyledLower = styled.section`
+  align-items: center;
+  background-color: #F8F2F2;
+  display: flex;
+  height: 88vh;
+  justify-content: space-around;
 `;
 
 export default App;
