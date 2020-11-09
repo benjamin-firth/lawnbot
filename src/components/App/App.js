@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 import Navbar from '../Navbar/Navbar';
 import WelcomeForm from '../WelcomeForm/WelcomeForm';
 import LawnPreviewContainer from '../LawnPreviewContainer/LawnPreviewContainer';
