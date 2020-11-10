@@ -19,13 +19,21 @@ const LawnPreviewContainer = () => {
       return (
         <LawnPreviewCard 
           beforePic={beforePic} 
-          afterPic={beforePic} 
+          afterPic={afterPic} 
           services={services} 
           key={Date.now() * Math.random()}/>
       );
     });
-    
-    return displayYards;
+
+    if (displayYards.length > 0) {
+      return displayYards;
+    } else {
+      return (
+        <StyledAlert>
+          <h2>No yards match your size</h2>
+        </StyledAlert>
+      )
+    };
   };
 
   return (
@@ -40,6 +48,17 @@ const StyledPreviewSection = styled.section`
   flex-direction: column;
   height: 80vh;
   overflow: scroll;
+  padding-bottom: 10px;
+  width: 45vw;
+`;
+
+const StyledAlert = styled.div`
+  align-items: center;
+  color: #6a6a6a;
+  display: flex;
+  height: 80vh;
+  justify-content: center; 
+  width: 45vw;
 `;
 
 export default LawnPreviewContainer;

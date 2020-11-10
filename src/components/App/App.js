@@ -18,11 +18,10 @@ const App = () => {
 
 const StyledMain = styled.main`
   * {
-    margin: 0px;
-    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
   }
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
 `;
 
 const StyledLower = styled.section`
