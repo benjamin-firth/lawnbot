@@ -1,7 +1,15 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { setYardSize } from '../../actions';
 import styled from 'styled-components';
 
 const WelcomeForm = () => {
+  const dispatch = useDispatch();
+
+  const submitHandler = (sqft) => {
+    dispatch(setYardSize(sqft));
+  };
+
   return (
     <StyledWelcomeForm>
       <StyledWelcomeTitle>
@@ -9,7 +17,10 @@ const WelcomeForm = () => {
       </StyledWelcomeTitle>
       <form>
         <label>Your approximate lawn size (sq ft)</label>
-        <input placeholder="Example 1,500"/>
+        <input 
+          onChange={(e) => submitHandler(parseInt(e.target.value))} 
+          type="number" 
+          placeholder="Example 1,500"/>
       </form>
     </StyledWelcomeForm>
   );
