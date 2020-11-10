@@ -1,15 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const LawnPreviewCard = () => {
+const LawnPreviewCard = ({ beforePic, afterPic, services}) => {
+  console.log({services})
+
   return (
     <StyledPreviewCard>
-      <img src='https://www.mypurelawn.com/wp-content/uploads/before-after3.jpg'/>
+      <img src={beforePic} />
       <p>Services Provided:</p>
       <ul>
-        <li>example</li>
-        <li>example</li>
-        <li>example</li>
+        { services.map(service => <li>{service}</li>) }
       </ul>
     </StyledPreviewCard>
   );
