@@ -5,13 +5,12 @@ import { exampleYards } from '../../utils/exampleYards';
 
 const LawnPreviewContainer = () => {
   const displayPreviewCards = () => {
-    const yards = exampleYards.map(yard => {
-      console.log(yard);
+    const yards = exampleYards.map(({ beforePic, afterPic, services }) => {
       return (
         <LawnPreviewCard 
-          beforePic={yard.beforePic} 
-          afterPic={yard.beforePic} 
-          services={yard.services} 
+          beforePic={beforePic} 
+          afterPic={beforePic} 
+          services={services} 
           key={Date.now() * Math.random()}/>
       );
     });
