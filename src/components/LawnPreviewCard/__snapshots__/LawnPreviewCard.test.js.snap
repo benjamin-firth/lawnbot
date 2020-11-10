@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LawnPreviewCard should match the snapshot 1`] = `
+<styled.article>
+  <s
+    aspectRatio="taller"
+    handle={null}
+    handleSize={40}
+    hover={false}
+    leftImage="testUrl"
+    leftImageAlt=""
+    leftImageCss={Object {}}
+    leftImageLabel={null}
+    onSliderPositionChange={[Function]}
+    rightImage="testUrl"
+    rightImageAlt=""
+    rightImageCss={Object {}}
+    rightImageLabel={null}
+    skeleton={null}
+    sliderLineColor="#ffffff"
+    sliderLineWidth={2}
+    sliderPositionPercentage={0.5}
+    vertical={false}
+  />
+  <p>
+    Services Provided:
+  </p>
+  <ul>
+    <li
+      key="775250322605.5968"
+    >
+      test service one
+    </li>
+    <li
+      key="47066298257.23264"
+    >
+      test two
+    </li>
+  </ul>
+</styled.article>
+`;

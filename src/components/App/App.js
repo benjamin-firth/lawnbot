@@ -33,3 +33,4 @@ const StyledLower = styled.section`
 `;
 
 export default App;
+

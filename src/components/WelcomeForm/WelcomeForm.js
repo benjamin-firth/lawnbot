@@ -19,7 +19,8 @@ const WelcomeForm = () => {
         <label>Your approximate lawn size (sq ft)</label>
         <input 
           onChange={(e) => submitHandler(parseInt(e.target.value))} 
-          type="number" 
+          type="number"
+          id="yardSubmit"
           placeholder="Example 1,500"/>
       </form>
     </StyledWelcomeForm>

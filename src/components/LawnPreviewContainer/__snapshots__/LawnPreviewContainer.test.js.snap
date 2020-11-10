@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LawnPreviewContainer should match the snapshot 1`] = `
+<styled.section>
+  <LawnPreviewCard
+    afterPic="lawn-after-small.jpg"
+    beforePic="lawn-before-small.jpg"
+    key="236772211535.84613"
+    services={
+      Array [
+        "Lawn Seeding",
+        "Mowing",
+        "Tick Spray",
+      ]
+    }
+  />
+  <LawnPreviewCard
+    afterPic="lawn-after-small.jpg"
+    beforePic="lawn-before-small.jpg"
+    key="577742670637.2197"
+    services={
+      Array [
+        "Lawn Seeding",
+        "Mowing",
+      ]
+    }
+  />
+  <LawnPreviewCard
+    afterPic="lawn-after-small.jpg"
+    beforePic="lawn-before-small.jpg"
+    key="476655244761"
+    services={
+      Array [
+        "Tick Spray",
+      ]
+    }
+  />
+  <LawnPreviewCard
+    afterPic="lawn-after-small.jpg"
+    beforePic="lawn-before-small.jpg"
+    key="845970745905.8103"
+    services={
+      Array [
+        "Lawn Seeding",
+        "Mowing",
+        "Tick Spray",
+        "Edging",
+      ]
+    }
+  />
+  <LawnPreviewCard
+    afterPic="lawn-after-small.jpg"
+    beforePic="lawn-before-small.jpg"
+    key="517862839821.95856"
+    services={
+      Array [
+        "Mowing",
+      ]
+    }
+  />
+</styled.section>
+`;

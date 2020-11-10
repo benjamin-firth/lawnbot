@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match the snapshot 1`] = `
+<styled.main>
+  <Navbar />
+  <styled.section>
+    <WelcomeForm />
+    <LawnPreviewContainer />
+  </styled.section>
+</styled.main>
+`;
