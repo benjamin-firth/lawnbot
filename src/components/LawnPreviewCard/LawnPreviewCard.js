@@ -2,14 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 const LawnPreviewCard = ({ beforePic, afterPic, services}) => {
-  console.log({services})
-
   return (
     <StyledPreviewCard>
       <img src={beforePic} />
       <p>Services Provided:</p>
       <ul>
-        { services.map(service => <li>{service}</li>) }
+        { services.map(service => <li key={Date.now() * Math.random()} >{service}</li>) }
       </ul>
     </StyledPreviewCard>
   );
