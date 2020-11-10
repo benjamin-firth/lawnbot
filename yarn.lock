@@ -9022,6 +9022,11 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
+react-compare-image@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/react-compare-image/-/react-compare-image-3.0.2.tgz#1b9a31f20caa67acc902793815c17a1e417498e9"
+  integrity sha512-XYS7fvBz6G2aRttg1zuR9Q72W2vpdux6YDQ8bBpaV/Em+bTqwogxfdmUeVqKnhQpOu3uWab75Lsmr9ucxdYbgA==
+
 react-dev-utils@^11.0.0:
   version "11.0.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.0.tgz#9fdb1b173f4ffc1f23fcf98465d93b16a860b73e"
