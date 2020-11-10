@@ -12,6 +12,7 @@ exports[`WelcomeForm should match the snapshot 1`] = `
       Your approximate lawn size (sq ft)
     </label>
     <input
+      id="yardSubmit"
       onChange={[Function]}
       placeholder="Example 1,500"
       type="number"
