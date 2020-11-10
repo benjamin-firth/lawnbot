@@ -8,9 +8,9 @@ This app enables users to enter their yard area, and see similar sized yards tha
 ### DEV SET UP INSTRUCTIONS
 - `git clone` this repo
 - `cd` into that directory
-- Run `npm install`
-- Run `npm start` and open your browser to the indicated url
-- Run `npm test` to view testing suite
+- Run `yarn`
+- Run `yarn start` and open your browser to the indicated url
+- Run `yarn test` to view testing suite
 
 ### UX / UI TECHNOLOGIES USED
 - Figma
