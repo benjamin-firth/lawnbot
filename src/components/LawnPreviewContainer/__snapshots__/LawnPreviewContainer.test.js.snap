@@ -5,7 +5,7 @@ exports[`LawnPreviewContainer should match the snapshot 1`] = `
   <LawnPreviewCard
     afterPic="lawn-after-small.jpg"
     beforePic="lawn-before-small.jpg"
-    key="127656443768.24411"
+    key="203070453760.30392"
     services={
       Array [
         "Lawn Seeding",
@@ -17,7 +17,7 @@ exports[`LawnPreviewContainer should match the snapshot 1`] = `
   <LawnPreviewCard
     afterPic="lawn-after-small.jpg"
     beforePic="lawn-before-small.jpg"
-    key="1298633846440.8962"
+    key="1514668527609.096"
     services={
       Array [
         "Lawn Seeding",
@@ -28,7 +28,7 @@ exports[`LawnPreviewContainer should match the snapshot 1`] = `
   <LawnPreviewCard
     afterPic="lawn-after-small.jpg"
     beforePic="lawn-before-small.jpg"
-    key="526315847173.9783"
+    key="956227266886.5725"
     services={
       Array [
         "Tick Spray",
@@ -38,7 +38,7 @@ exports[`LawnPreviewContainer should match the snapshot 1`] = `
   <LawnPreviewCard
     afterPic="lawn-after-small.jpg"
     beforePic="lawn-before-small.jpg"
-    key="775544712244.0734"
+    key="13867196503.99524"
     services={
       Array [
         "Lawn Seeding",
@@ -51,7 +51,7 @@ exports[`LawnPreviewContainer should match the snapshot 1`] = `
   <LawnPreviewCard
     afterPic="lawn-after-small.jpg"
     beforePic="lawn-before-small.jpg"
-    key="200820885505.705"
+    key="41058368036.561195"
     services={
       Array [
         "Mowing",
