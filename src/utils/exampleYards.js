@@ -1,5 +1,8 @@
 import lawnBefore from '../images/lawn-before-small.jpg';
 import lawnAfter from '../images/lawn-after-small.jpg';
+import lawnBeforeTwo from '../images/lawn-before-two.jpg';
+import lawnAfterTwo from '../images/lawn-after-two.jpg';
+
 
 export const exampleYards = [
   {
@@ -13,8 +16,8 @@ export const exampleYards = [
     ]
   },
   {
-    beforePic: lawnBefore,
-    afterPic: lawnAfter,
+    beforePic: lawnBeforeTwo,
+    afterPic: lawnAfterTwo,
     yardSize: 2500,
     services: [
       'Lawn Seeding',
@@ -30,8 +33,8 @@ export const exampleYards = [
     ]
   },
   {
-    beforePic: lawnBefore,
-    afterPic: lawnAfter,
+    beforePic: lawnBeforeTwo,
+    afterPic: lawnAfterTwo,
     yardSize: 3500,
     services: [
       'Lawn Seeding',
