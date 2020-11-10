@@ -29,14 +29,18 @@ const WelcomeForm = () => {
 const StyledWelcomeForm = styled.section`
   background-color: #fff;
   border-radius: 5px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px #777;
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 
   form {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding: 25px 25px 30px 25px;;
     font-size: 1em;
   }
 
@@ -52,7 +56,7 @@ const StyledWelcomeTitle = styled.div`
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   color: #fff;
-  padding: 20px;
+  padding: 10px 20px;
 `;
 
 export default WelcomeForm;
