@@ -2,6 +2,10 @@
 
 exports[`LawnPreviewCard should match the snapshot 1`] = `
 <styled.article>
+  <styled.p>
+    Yard in: 
+    testLocation
+  </styled.p>
   <s
     aspectRatio="taller"
     handle={null}
@@ -22,17 +26,17 @@ exports[`LawnPreviewCard should match the snapshot 1`] = `
     sliderPositionPercentage={0.5}
     vertical={false}
   />
-  <p>
+  <styled.p>
     Services Provided:
-  </p>
+  </styled.p>
   <ul>
     <li
-      key="775250322605.5968"
+      key="669018086784.2607"
     >
       test service one
     </li>
     <li
-      key="47066298257.23264"
+      key="980825528574.3057"
     >
       test two
     </li>
