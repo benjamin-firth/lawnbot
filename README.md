@@ -5,12 +5,14 @@
 ### ABOUT
 This app enables users to enter their yard area, and see similar sized yards that a green company has worked on. The similar yards are within 1000 square feet of the yard size typed in. Additionally, the pictures show a before and after for full effect.
 
+The yard area would ideally pull from the Measur.it tool, and then show filtered results, but without access to that I created this as a demonstration.
+
 ### DEV SET UP INSTRUCTIONS
 - `git clone` this repo
 - `cd` into that directory
-- Run `npm install`
-- Run `npm start` and open your browser to the indicated url
-- Run `npm test` to view testing suite
+- Run `yarn`
+- Run `yarn start` and open your browser to the indicated url
+- Run `yarn test` to view testing suite
 
 ### UX / UI TECHNOLOGIES USED
 - Figma
