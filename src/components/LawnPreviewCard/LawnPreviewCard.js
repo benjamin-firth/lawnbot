@@ -3,13 +3,14 @@ import styled from 'styled-components';
 import ReactCompareImage from 'react-compare-image';
 
 const LawnPreviewCard = ({ beforePic, afterPic, services, location}) => {
-  const allServices = services.map(service => <li key={Date.now() * Math.random()} >{service}</li>);
+  const createKey = () => Date.now() * Math.random();
+  const allServices = services.map(service => <li key={createKey()} >{service}</li>);
 
   return (
     <StyledPreviewCard>
-      <StyledTop>Yard in: {location}</StyledTop>
+      <StyledTitle>Yard in: {location}</StyledTitle>
       <ReactCompareImage leftImage={beforePic} rightImage={afterPic} />
-      <StyledTitle>Services Provided:</StyledTitle>
+      <StyledServices>Services Provided:</StyledServices>
       <ul>
         {allServices}
       </ul>
@@ -28,12 +29,11 @@ const StyledPreviewCard = styled.article`
   width: 550px;
 `;
 
-const StyledTop = styled.p`
+const StyledTitle = styled.p`
   font-weight: bold;
 `;
 
-const StyledTitle = styled.p`
-  font-weight: bold;
+const StyledServices = styled(StyledTitle)`
   margin-bottom: 0px;
 `;
 

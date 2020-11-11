@@ -7,7 +7,6 @@ import lawnAfterThree from '../images/lawn-after-three.jpg';
 import lawnBeforeFour from '../images/lawn-before-four.jpg';
 import lawnAfterFour from '../images/lawn-after-four.jpg';
 
-
 export const exampleYards = [
   {
     beforePic: lawnBefore,
