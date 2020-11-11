@@ -28,7 +28,7 @@ const WelcomeForm = () => {
 };
 
 const StyledWelcomeForm = styled.section`
-  background-color: #fff;
+  background-color: ${({ theme }) => theme.colors.white};
   border-radius: 5px;
   -webkit-box-shadow: 0 10px 6px -6px #777;
 	-moz-box-shadow: 0 10px 6px -6px #777;
@@ -39,11 +39,11 @@ const StyledWelcomeForm = styled.section`
 `;
 
 const StyledWelcomeTitle = styled.div`
-background-color: #36b459;
-border-top-left-radius: 5px;
-border-top-right-radius: 5px;
-color: #fff;
-padding: 10px 20px;
+  background-color: ${({ theme }) => theme.colors.mainGreen};
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
 `;
 
 const StyledForm = styled.div`

@@ -9,7 +9,7 @@ const LawnPreviewCard = ({ beforePic, afterPic, services, location}) => {
   return (
     <StyledPreviewCard>
       <StyledTop>
-        <StyledTitle>Yard in: {location}</StyledTitle>
+        <h3>Yard in: {location}</h3>
       </StyledTop>
       <BodyWrapper>
         <ReactCompareImage leftImage={beforePic} rightImage={afterPic} />
@@ -23,7 +23,7 @@ const LawnPreviewCard = ({ beforePic, afterPic, services, location}) => {
 };
 
 const StyledPreviewCard = styled.article`
-  background-color: #fff;
+  background-color: ${({ theme }) => theme.colors.white};
   border-radius: 5px;
 	box-shadow: 0 10px 6px -6px #777;
   display: flex;
@@ -34,7 +34,7 @@ const StyledPreviewCard = styled.article`
 `;
 
 const StyledTop = styled.div`
-  background-color: #36b459;
+  background-color: ${({ theme }) => theme.colors.mainGreen};
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   color: #fff;
@@ -42,15 +42,12 @@ const StyledTop = styled.div`
   padding: 10px 20px;
 `;
 
-const StyledTitle = styled.p`
-  font-weight: bold;
-`;
-
 const BodyWrapper = styled.div`
   margin: 0px 25px 0px 25px;
 `;
 
-const StyledServices = styled(StyledTitle)`
+const StyledServices = styled.p`
+  font-weight: bold;
   margin-bottom: 0px;
 `;
 
