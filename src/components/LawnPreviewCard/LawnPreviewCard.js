@@ -8,12 +8,16 @@ const LawnPreviewCard = ({ beforePic, afterPic, services, location}) => {
 
   return (
     <StyledPreviewCard>
-      <StyledTitle>Yard in: {location}</StyledTitle>
-      <ReactCompareImage leftImage={beforePic} rightImage={afterPic} />
+      <StyledTop>
+        <StyledTitle>Yard in: {location}</StyledTitle>
+      </StyledTop>
+      <BodyWrapper>
+        <ReactCompareImage leftImage={beforePic} rightImage={afterPic} />
       <StyledServices>Services Provided:</StyledServices>
       <ul>
         {allServices}
       </ul>
+      </BodyWrapper>
     </StyledPreviewCard>
   );
 };
@@ -25,12 +29,25 @@ const StyledPreviewCard = styled.article`
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  padding: 5px 25px 15px 25px;
+  padding: 0px 0px 15px 0px;
   width: 550px;
+`;
+
+const StyledTop = styled.div`
+  background-color: #36b459;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #fff;
+  margin-bottom: 15px;
+  padding: 10px 20px;
 `;
 
 const StyledTitle = styled.p`
   font-weight: bold;
+`;
+
+const BodyWrapper = styled.div`
+  margin: 0px 25px 0px 25px;
 `;
 
 const StyledServices = styled(StyledTitle)`
