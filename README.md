@@ -1,6 +1,6 @@
 # Lawnbot Similar Services Display
 
-<img width="1440" alt="Screen Shot 2020-11-10 at 5 51 49 PM" src="https://user-images.githubusercontent.com/32349614/98751984-7d4d4700-237e-11eb-8b1b-a9dee60cb44f.png">
+<img width="1440" alt="Screen Shot 2020-11-10 at 6 21 57 PM" src="https://user-images.githubusercontent.com/32349614/98753711-2fd2d900-2382-11eb-92f5-10957069f0ac.png">
 
 ### ABOUT
 This app enables users to enter their yard area, and see similar sized yards that a green company has worked on. The similar yards are within 1000 square feet of the yard size typed in. Additionally, the pictures show a before and after for full effect.
