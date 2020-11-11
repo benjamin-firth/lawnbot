@@ -14,13 +14,13 @@ const StyledNav = styled.nav`
   background-color: #4f7cfe;
   display: flex;
   height: 12vh;
-  padding-left: 20px;
+  padding-left: 50px;
 `;
 
 const StyledNavTitle = styled.h1`
   color: #fff;
   font-size: 2em;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
 `;
 
 export default Navbar;

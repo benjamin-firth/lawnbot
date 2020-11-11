@@ -12,14 +12,17 @@ const LawnPreviewContainer = () => {
     if (currentYardSize === null || isNaN(currentYardSize)) {
       yards = exampleYards;
     } else {
-      yards = exampleYards.filter(yard => yard.yardSize < currentYardSize + 1000 && yard.yardSize > currentYardSize - 1000 );
+      yards = exampleYards.filter(yard => (
+        yard.yardSize < currentYardSize + 1000 && yard.yardSize > currentYardSize - 1000
+      ));
     };
     
-    const displayYards = yards.map(({ beforePic, afterPic, services }) => {
+    const displayYards = yards.map(({ beforePic, afterPic, services, location }) => {
       return (
         <LawnPreviewCard 
           beforePic={beforePic} 
-          afterPic={afterPic} 
+          afterPic={afterPic}
+          location={location}
           services={services} 
           key={Date.now() * Math.random()}/>
       );
@@ -38,7 +41,7 @@ const LawnPreviewContainer = () => {
 
   return (
     <StyledPreviewSection>
-      { displayPreviewCards() }
+      {displayPreviewCards()}
     </StyledPreviewSection>
   );
 };

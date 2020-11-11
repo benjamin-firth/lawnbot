@@ -4,15 +4,17 @@ import LawnPreviewCard from './LawnPreviewCard';
 
 describe('LawnPreviewCard', () => {
   let wrapper;
-  let beforePic = 'testUrl';
-  let afterPic = 'testUrl';
-  let services = ['test service one', 'test two'];
+  const beforePic = 'testUrl';
+  const afterPic = 'testUrl';
+  const location = 'testLocation';
+  const services = ['test service one', 'test two'];
 
   beforeEach(() => {
     wrapper = shallow(
       <LawnPreviewCard 
         beforePic={beforePic} 
         afterPic={afterPic} 
+        location={location} 
         services={services} 
       />
     )
