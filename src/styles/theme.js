@@ -5,4 +5,4 @@ export const theme = {
     lightGrey: '#F8F2F2',
     white: '#fff'
   }
-}
+};
