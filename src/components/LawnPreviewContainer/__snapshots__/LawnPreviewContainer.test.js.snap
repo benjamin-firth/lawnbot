@@ -5,7 +5,8 @@ exports[`LawnPreviewContainer should match the snapshot 1`] = `
   <LawnPreviewCard
     afterPic="lawn-after-small.jpg"
     beforePic="lawn-before-small.jpg"
-    key="236772211535.84613"
+    key="1067174269278.2302"
+    location="Atlanta, Georgia"
     services={
       Array [
         "Lawn Seeding",
@@ -15,9 +16,10 @@ exports[`LawnPreviewContainer should match the snapshot 1`] = `
     }
   />
   <LawnPreviewCard
-    afterPic="lawn-after-small.jpg"
-    beforePic="lawn-before-small.jpg"
-    key="577742670637.2197"
+    afterPic="lawn-after-four.jpg"
+    beforePic="lawn-before-four.jpg"
+    key="700671832007.0618"
+    location="Olympia, Washington"
     services={
       Array [
         "Lawn Seeding",
@@ -26,9 +28,10 @@ exports[`LawnPreviewContainer should match the snapshot 1`] = `
     }
   />
   <LawnPreviewCard
-    afterPic="lawn-after-small.jpg"
-    beforePic="lawn-before-small.jpg"
-    key="476655244761"
+    afterPic="lawn-after-two.jpg"
+    beforePic="lawn-before-two.jpg"
+    key="651560036325.0018"
+    location="Lansing, Michigan"
     services={
       Array [
         "Tick Spray",
@@ -36,9 +39,10 @@ exports[`LawnPreviewContainer should match the snapshot 1`] = `
     }
   />
   <LawnPreviewCard
-    afterPic="lawn-after-small.jpg"
-    beforePic="lawn-before-small.jpg"
-    key="845970745905.8103"
+    afterPic="lawn-after-three.jpg"
+    beforePic="lawn-before-three.jpg"
+    key="1118410399633.331"
+    location="Seattle, Washington"
     services={
       Array [
         "Lawn Seeding",
@@ -51,7 +55,8 @@ exports[`LawnPreviewContainer should match the snapshot 1`] = `
   <LawnPreviewCard
     afterPic="lawn-after-small.jpg"
     beforePic="lawn-before-small.jpg"
-    key="517862839821.95856"
+    key="169464016723.5851"
+    location="Hood River, Oregon"
     services={
       Array [
         "Mowing",
