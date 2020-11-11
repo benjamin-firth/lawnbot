@@ -11,7 +11,7 @@ const Navbar = () => {
 
 const StyledNav = styled.nav`
   align-items: center;
-  background-color: #4f7cfe;
+  background-color: ${({ theme }) => theme.colors.mainBlue};
   display: flex;
   height: 12vh;
   padding-left: 50px;
